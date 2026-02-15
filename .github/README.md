@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-amplify`](https://www.npmjs.com/package/@aws-sdk/client-amplify/v/3.199.0).
+[`@aws-sdk/client-amplify`](https://www.npmjs.com/package/@aws-sdk/client-amplify/v/3.200.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-amplify@3.199.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-amplify@3.200.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-iEx9nShVd4JdmjFty14uTPI89dYY6M8oe0QXcvKMvGtoKIX5TmDwbkUlUIaSarL6
+sha384-GJuGkILMRyq8Wi3qkj5nUCZyjV460j2AojyOjgQJu5hCuZ+u72P1px+pUbayaEAB
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-amplify": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-amplify@3.199.0/index.min.mjs"
+            "@aws-sdk/client-amplify": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-amplify@3.200.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-amplify@3.199.0/index.min.mjs": "sha384-iEx9nShVd4JdmjFty14uTPI89dYY6M8oe0QXcvKMvGtoKIX5TmDwbkUlUIaSarL6"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-amplify@3.200.0/index.min.mjs": "sha384-GJuGkILMRyq8Wi3qkj5nUCZyjV460j2AojyOjgQJu5hCuZ+u72P1px+pUbayaEAB"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-amplify": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-amplify@3.199.0/index.min.mjs"
+                        "@aws-sdk/client-amplify": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-amplify@3.200.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-amplify@3.199.0/index.min.mjs": "sha384-iEx9nShVd4JdmjFty14uTPI89dYY6M8oe0QXcvKMvGtoKIX5TmDwbkUlUIaSarL6"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-amplify@3.200.0/index.min.mjs": "sha384-GJuGkILMRyq8Wi3qkj5nUCZyjV460j2AojyOjgQJu5hCuZ+u72P1px+pUbayaEAB"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.199.0`)
+* Always pin to a specific version (`@3.200.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-amplify/blob/refs/tags/3.199.0/LICENSE
+https://github.com/cloud-sdk-builds/client-amplify/blob/refs/tags/3.200.0/LICENSE
 ```
 
 ---
